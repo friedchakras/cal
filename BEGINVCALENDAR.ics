@@ -1,0 +1,671 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Assistant//NursingSchedule v1.0//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Nursing Schedule
+X-WR-TIMEZONE:Europe/Warsaw
+
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+
+; Monday, September 29, 2025
+BEGIN:VEVENT
+UID:20250929T080000-PwOD-L@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20250929T080000
+DTEND;TZID=Europe/Warsaw:20250929T101500
+SUMMARY:Nursing in Long-term Care - Lecture
+DESCRIPTION:Lecturer: dr Piotr Ziajka. Form of passing: Pass with grade. [span_0](start_span)Mode: Online (PSWTeams MTeams).[span_0](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929T103000-OP-L1@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20250929T103000
+DTEND;TZID=Europe/Warsaw:20250929T124500
+SUMMARY:Palliative Care - Lecture
+DESCRIPTION:Lecturer: dr hab. Iwona Głowacka-Mrotek. Form of passing: Exam. [span_1](start_span)Mode: Online (PSWTeams MTeams).[span_1](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929T130000-OP-L2@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20250929T130000
+DTEND;TZID=Europe/Warsaw:20250929T151500
+SUMMARY:Palliative Care - Lecture
+DESCRIPTION:Lecturer: dr hab. Iwona Głowacka-Mrotek. Form of passing: Exam. [span_2](start_span)Mode: Online (PSWTeams MTeams).[span_2](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+; Tuesday, September 30, 2025
+BEGIN:VEVENT
+UID:20250930T080000-PwOD-L1@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20250930T080000
+DTEND;TZID=Europe/Warsaw:20250930T101500
+SUMMARY:Nursing in Long-term Care - Lecture
+DESCRIPTION:Lecturer: dr Piotr Ziajka. Form of passing: Pass with grade. [span_3](start_span)Mode: Online (PSWTeams MTeams).[span_3](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250930T103000-PwOD-L2@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20250930T103000
+DTEND;TZID=Europe/Warsaw:20250930T124500
+SUMMARY:Nursing in Long-term Care - Lecture
+DESCRIPTION:Lecturer: dr Piotr Ziajka. Form of passing: Pass with grade. [span_4](start_span)Mode: Online (PSWTeams MTeams).[span_4](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250930T130000-OP-L3@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20250930T130000
+DTEND;TZID=Europe/Warsaw:20250930T151500
+SUMMARY:Palliative Care - Lecture
+DESCRIPTION:Lecturer: dr hab. Iwona Głowacka-Mrotek. Form of passing: Exam. [span_5](start_span)Mode: Online (PSWTeams MTeams).[span_5](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+; Wednesday, October 1, 2025
+BEGIN:VEVENT
+UID:20251001T080000-ANST-L1@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251001T080000
+DTEND;TZID=Europe/Warsaw:20251001T101500
+SUMMARY:Anesthesiology and Nursing in Life-Threatening Situations - Lecture
+DESCRIPTION:Lecturer: mgr Agnieszka Ciosek. Form of passing: Exam. [span_6](start_span)Mode: Online (PSWTeams MTeams).[span_6](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251001T103000-ANST-L2@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251001T103000
+DTEND;TZID=Europe/Warsaw:20251001T124500
+SUMMARY:Anesthesiology and Nursing in Life-Threatening Situations - Lecture
+DESCRIPTION:Lecturer: mgr Agnieszka Ciosek. Form of passing: Exam. [span_7](start_span)Mode: Online (PSWTeams MTeams).[span_7](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251001T130000-OP-L4@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251001T130000
+DTEND;TZID=Europe/Warsaw:20251001T151500
+SUMMARY:Palliative Care - Lecture
+DESCRIPTION:Lecturer: dr hab. Iwona Głowacka-Mrotek. Form of passing: Exam. [span_8](start_span)Mode: Online (PSWTeams MTeams).[span_8](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251001T154500-PRM-L1@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251001T154500
+DTEND;TZID=Europe/Warsaw:20251001T180000
+SUMMARY:Basics of Medical Rescue - Lecture
+DESCRIPTION:Lecturer: mgr Konrad Zastawny. Form of passing: Exam. [span_9](start_span)Mode: Online (PSWTeams MTeams).[span_9](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251001T181500-PRM-L2@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251001T181500
+DTEND;TZID=Europe/Warsaw:20251001T203000
+SUMMARY:Basics of Medical Rescue - Lecture
+DESCRIPTION:Lecturer: mgr Konrad Zastawny. Form of passing: Exam. [span_10](start_span)Mode: Online (PSWTeams MTeams).[span_10](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+; Thursday, October 2, 2025
+BEGIN:VEVENT
+UID:20251002T080000-OP-L5@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251002T080000
+DTEND;TZID=Europe/Warsaw:20251002T101500
+SUMMARY:Palliative Care - Lecture
+DESCRIPTION:Lecturer: dr hab. Iwona Głowacka-Mrotek. Form of passing: Exam. [span_11](start_span)Mode: Online (PSWTeams MTeams).[span_11](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251002T103000-NEUR-L1@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251002T103000
+DTEND;TZID=Europe/Warsaw:20251002T124500
+SUMMARY:Neurology and Neurological Nursing - Lecture
+DESCRIPTION:Lecturer: dr hab. Magdalena Hagner-Derengowska. Form of passing: Exam. [span_12](start_span)Mode: Online (PSWTeams MTeams).[span_12](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251002T130000-NEUR-L2@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251002T130000
+DTEND;TZID=Europe/Warsaw:20251002T151500
+SUMMARY:Neurology and Neurological Nursing - Lecture
+DESCRIPTION:Lecturer: dr hab. Magdalena Hagner-Derengowska. Form of passing: Exam. [span_13](start_span)Mode: Online (PSWTeams MTeams).[span_13](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+; Tuesday, October 14, 2025
+BEGIN:VEVENT
+UID:20251014T080000-PSYCH-L1@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251014T080000
+DTEND;TZID=Europe/Warsaw:20251014T101500
+SUMMARY:Psychiatry and Psychiatric Nursing - Lecture
+DESCRIPTION:Lecturer: mgr Katarzyna Miler. Form of passing: Exam. [span_14](start_span)Mode: Online (PSWTeams MTeams).[span_14](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251014T154500-NEUR-L3@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251014T154500
+DTEND;TZID=Europe/Warsaw:20251014T180000
+SUMMARY:Neurology and Neurological Nursing - Lecture
+DESCRIPTION:Lecturer: dr hab. Magdalena Hagner-Derengowska. Form of passing: Exam. [span_15](start_span)Mode: Online (PSWTeams MTeams).[span_15](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+; Wednesday, October 15, 2025
+BEGIN:VEVENT
+UID:20251015T080000-POZ-L1@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251015T080000
+DTEND;TZID=Europe/Warsaw:20251015T101500
+SUMMARY:Primary Health Care - Lecture
+DESCRIPTION:Lecturer: mgr Weronika Ciapka. Form of passing: Exam. [span_16](start_span)Mode: Online (PSWTeams MTeams).[span_16](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251015T103000-POZ-L2@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251015T103000
+DTEND;TZID=Europe/Warsaw:20251015T124500
+SUMMARY:Primary Health Care - Lecture
+DESCRIPTION:Lecturer: mgr Weronika Ciapka. Form of passing: Exam. [span_17](start_span)Mode: Online (PSWTeams MTeams).[span_17](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+; Thursday, October 16, 2025
+BEGIN:VEVENT
+UID:20251016T080000-POZ-EX1@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251016T080000
+DTEND;TZID=Europe/Warsaw:20251016T101500
+SUMMARY:Primary Health Care - Exercises
+DESCRIPTION:Lecturer: mgr Weronika Ciapka. Form of passing: Pass with grade. [span_18](start_span)Room: GDA SMO GDA 5C.[span_18](end_span)
+LOCATION:GDA SMO GDA 5C
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251016T130000-POZ-L3@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251016T130000
+DTEND;TZID=Europe/Warsaw:20251016T151500
+SUMMARY:Primary Health Care - Lecture
+DESCRIPTION:Lecturer: mgr Weronika Ciapka. Form of passing: Exam. [span_19](start_span)Mode: Online (PSWTeams MTeams).[span_19](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251016T154500-POZ-L4@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251016T154500
+DTEND;TZID=Europe/Warsaw:20251016T180000
+SUMMARY:Primary Health Care - Lecture
+DESCRIPTION:Lecturer: mgr Weronika Ciapka. Form of passing: Exam. [span_20](start_span)Mode: Online (PSWTeams MTeams).[span_20](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251016T181500-PSYCH-L2@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251016T181500
+DTEND;TZID=Europe/Warsaw:20251016T203000
+SUMMARY:Psychiatry and Psychiatric Nursing - Lecture
+DESCRIPTION:Lecturer: mgr Katarzyna Miler. Form of passing: Exam. [span_21](start_span)Mode: Online (PSWTeams MTeams).[span_21](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+; Tuesday, October 21, 2025
+BEGIN:VEVENT
+UID:20251021T154500-ANST-EX1@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251021T154500
+DTEND;TZID=Europe/Warsaw:20251021T180000
+SUMMARY:Anesthesiology and Nursing in Life-Threatening Situations - Exercises
+DESCRIPTION:Lecturer: mgr Wioletta Mieloszyk, wykładowca. Form of passing: Pass with grade. [span_22](start_span)Room: GDA SMO GDA 9B.[span_22](end_span)
+LOCATION:GDA SMO GDA 9B
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251021T181500-ANST-EX2@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251021T181500
+DTEND;TZID=Europe/Warsaw:20251021T203000
+SUMMARY:Anesthesiology and Nursing in Life-Threatening Situations - Exercises
+DESCRIPTION:Lecturer: mgr Wioletta Mieloszyk, wykładowca. Form of passing: Pass with grade. [span_23](start_span)Room: GDA SMO GDA 9B.[span_23](end_span)
+LOCATION:GDA SMO GDA 9B
+END:VEVENT
+
+; Thursday, October 23, 2025
+BEGIN:VEVENT
+UID:20251023T080000-NEUR-L4@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251023T080000
+DTEND;TZID=Europe/Warsaw:20251023T101500
+SUMMARY:Neurology and Neurological Nursing - Lecture
+DESCRIPTION:Lecturer: dr hab. Magdalena Hagner-Derengowska. Form of passing: Exam. [span_24](start_span)Mode: Online (PSWTeams MTeams).[span_24](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+; Monday, October 27, 2025
+BEGIN:VEVENT
+UID:20251027T154500-POZ-EX2@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251027T154500
+DTEND;TZID=Europe/Warsaw:20251027T180000
+SUMMARY:Primary Health Care - Exercises
+DESCRIPTION:Lecturer: mgr Weronika Ciapka. Form of passing: Pass with grade. [span_25](start_span)Room: GDA SMO GDA 21C.[span_25](end_span)
+LOCATION:GDA SMO GDA 21C
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251027T181500-POZ-EX3@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251027T181500
+DTEND;TZID=Europe/Warsaw:20251027T203000
+SUMMARY:Primary Health Care - Exercises
+DESCRIPTION:Lecturer: mgr Weronika Ciapka. Form of passing: Pass with grade. [span_26](start_span)Room: GDA SMO GDA 21C.[span_26](end_span)
+LOCATION:GDA SMO GDA 21C
+END:VEVENT
+
+; Tuesday, October 28, 2025
+BEGIN:VEVENT
+UID:20251028T181500-PEGZ-L@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251028T181500
+DTEND;TZID=Europe/Warsaw:20251028T203000
+SUMMARY:Preparation for the Diploma Exam - Lecture
+DESCRIPTION:Lecturer: mgr Wioletta Mieloszyk, wykładowca. Form of passing: Pass. [span_27](start_span)Mode: Online (PSWTeams MTeams).[span_27](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+; Wednesday, October 29, 2025
+BEGIN:VEVENT
+UID:20251029T080000-POZ-EX4@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251029T080000
+DTEND;TZID=Europe/Warsaw:20251029T101500
+SUMMARY:Primary Health Care - Exercises
+DESCRIPTION:Lecturer: mgr Weronika Ciapka. Form of passing: Pass with grade. [span_28](start_span)Room: GDA SMO GDA 5C.[span_28](end_span)
+LOCATION:GDA SMO GDA 5C
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251029T103000-POZ-EX5@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251029T103000
+DTEND;TZID=Europe/Warsaw:20251029T124500
+SUMMARY:Primary Health Care - Exercises
+DESCRIPTION:Lecturer: mgr Weronika Ciapka. Form of passing: Pass with grade. [span_29](start_span)Room: GDA SMO GDA 5C.[span_29](end_span)
+LOCATION:GDA SMO GDA 5C
+END:VEVENT
+
+; Monday, November 3, 2025
+BEGIN:VEVENT
+UID:20251103T154500-ANST-EX3@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251103T154500
+DTEND;TZID=Europe/Warsaw:20251103T180000
+SUMMARY:Anesthesiology and Nursing in Life-Threatening Situations - Exercises
+DESCRIPTION:Lecturer: mgr Wioletta Mieloszyk, wykładowca. Form of passing: Pass with grade. [span_30](start_span)Room: GDA SMO GDA 5C.[span_30](end_span)
+LOCATION:GDA SMO GDA 5C
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251103T181500-ANST-EX4@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251103T181500
+DTEND;TZID=Europe/Warsaw:20251103T203000
+SUMMARY:Anesthesiology and Nursing in Life-Threatening Situations - Exercises
+DESCRIPTION:Lecturer: mgr Wioletta Mieloszyk, wykładowca. Form of passing: Pass with grade. [span_31](start_span)Room: GDA SMO GDA 5C.[span_31](end_span)
+LOCATION:GDA SMO GDA 5C
+END:VEVENT
+
+; Tuesday, November 4, 2025
+BEGIN:VEVENT
+UID:20251104T154500-NEUR-EX1@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251104T154500
+DTEND;TZID=Europe/Warsaw:20251104T180000
+SUMMARY:Neurology and Neurological Nursing - Exercises
+DESCRIPTION:Lecturer: mgr Wioletta Mieloszyk, wykładowca. Form of passing: Pass with grade. [span_32](start_span)Room: GDA SMO GDA 7B.[span_32](end_span)
+LOCATION:GDA SMO GDA 7B
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251104T181500-OP-EX1@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251104T181500
+DTEND;TZID=Europe/Warsaw:20251104T203000
+SUMMARY:Palliative Care - Exercises
+DESCRIPTION:Lecturer: mgr Wioletta Mieloszyk, wykładowca. Form of passing: Pass with grade. [span_33](start_span)Room: GDA SMO GDA 7B.[span_33](end_span)
+LOCATION:GDA SMO GDA 7B
+END:VEVENT
+
+; Thursday, November 6, 2025
+BEGIN:VEVENT
+UID:20251106T103000-NEUR-L5@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251106T103000
+DTEND;TZID=Europe/Warsaw:20251106T124500
+SUMMARY:Neurology and Neurological Nursing - Lecture
+DESCRIPTION:Lecturer: dr hab. Magdalena Hagner-Derengowska. Form of passing: Exam. [span_34](start_span)Mode: Online (PSWTeams MTeams).[span_34](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251106T130000-PwOD-L3@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251106T130000
+DTEND;TZID=Europe/Warsaw:20251106T151500
+SUMMARY:Nursing in Long-term Care - Lecture
+DESCRIPTION:Lecturer: dr Piotr Ziajka. Form of passing: Pass with grade. [span_35](start_span)Mode: Online (PSWTeams MTeams).[span_35](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251106T154500-PwOD-L4@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251106T154500
+DTEND;TZID=Europe/Warsaw:20251106T180000
+SUMMARY:Nursing in Long-term Care - Lecture
+DESCRIPTION:Lecturer: dr Piotr Ziajka. Form of passing: Pass with grade. [span_36](start_span)Mode: Online (PSWTeams MTeams).[span_36](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251106T181500-PSYCH-L3@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251106T181500
+DTEND;TZID=Europe/Warsaw:20251106T203000
+SUMMARY:Psychiatry and Psychiatric Nursing - Lecture
+DESCRIPTION:Lecturer: mgr Katarzyna Miler. Form of passing: Exam. [span_37](start_span)Mode: Online (PSWTeams MTeams).[span_37](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+; Wednesday, November 19, 2025
+BEGIN:VEVENT
+UID:20251119T080000-ANST-L3@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251119T080000
+DTEND;TZID=Europe/Warsaw:20251119T101500
+SUMMARY:Anesthesiology and Nursing in Life-Threatening Situations - Lecture
+DESCRIPTION:Lecturer: mgr Agnieszka Ciosek. Form of passing: Exam. [span_38](start_span)Mode: Online (PSWTeams MTeams).[span_38](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251119T103000-ANST-L4@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251119T103000
+DTEND;TZID=Europe/Warsaw:20251119T124500
+SUMMARY:Anesthesiology and Nursing in Life-Threatening Situations - Lecture
+DESCRIPTION:Lecturer: mgr Agnieszka Ciosek. Form of passing: Exam. [span_39](start_span)Mode: Online (PSWTeams MTeams).[span_39](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251119T130000-PSYCH-L4@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251119T130000
+DTEND;TZID=Europe/Warsaw:20251119T151500
+SUMMARY:Psychiatry and Psychiatric Nursing - Lecture
+DESCRIPTION:Lecturer: mgr Katarzyna Miler. Form of passing: Exam. [span_40](start_span)Mode: Online (PSWTeams MTeams).[span_40](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251119T154500-PSYCH-EX1@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251119T154500
+DTEND;TZID=Europe/Warsaw:20251119T180000
+SUMMARY:Psychiatry and Psychiatric Nursing - Exercises
+DESCRIPTION:Lecturer: mgr Katarzyna Miler. Form of passing: Pass with grade. [span_41](start_span)Mode: Online (PSWTeams MTeams).[span_41](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251119T181500-PRM-L3@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251119T181500
+DTEND;TZID=Europe/Warsaw:20251119T203000
+SUMMARY:Basics of Medical Rescue - Lecture
+DESCRIPTION:Lecturer: mgr Konrad Zastawny. Form of passing: Exam. [span_42](start_span)Mode: Online (PSWTeams MTeams).[span_42](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+; Thursday, November 20, 2025
+BEGIN:VEVENT
+UID:20251120T154500-ANST-EX5@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251120T154500
+DTEND;TZID=Europe/Warsaw:20251120T180000
+SUMMARY:Anesthesiology and Nursing in Life-Threatening Situations - Exercises
+DESCRIPTION:Lecturer: mgr Wioletta Mieloszyk, wykładowca. Form of passing: Pass with grade. [span_43](start_span)Room: GDA SMO GDA 5C.[span_43](end_span)
+LOCATION:GDA SMO GDA 5C
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251120T181500-NEUR-EX2@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251120T181500
+DTEND;TZID=Europe/Warsaw:20251120T203000
+SUMMARY:Neurology and Neurological Nursing - Exercises
+DESCRIPTION:Lecturer: mgr Wioletta Mieloszyk, wykładowca. Form of passing: Pass with grade. [span_44](start_span)Room: GDA SMO GDA 5C.[span_44](end_span)
+LOCATION:GDA SMO GDA 5C
+END:VEVENT
+
+; Thursday, November 27, 2025
+BEGIN:VEVENT
+UID:20251127T154500-POZ-EX6@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251127T154500
+DTEND;TZID=Europe/Warsaw:20251127T180000
+SUMMARY:Primary Health Care - Exercises
+DESCRIPTION:Lecturer: mgr Weronika Ciapka. Form of passing: Pass with grade. [span_45](start_span)Room: GDA SMO GDA 9B.[span_45](end_span)
+LOCATION:GDA SMO GDA 9B
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251127T181500-POZ-EX7@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251127T181500
+DTEND;TZID=Europe/Warsaw:20251127T203000
+SUMMARY:Primary Health Care - Exercises
+DESCRIPTION:Lecturer: mgr Weronika Ciapka. Form of passing: Pass with grade. [span_46](start_span)Room: GDA SMO GDA 9B.[span_46](end_span)
+LOCATION:GDA SMO GDA 9B
+END:VEVENT
+
+; Monday, December 1, 2025
+BEGIN:VEVENT
+UID:20251201T154500-NEUR-EX3@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251201T154500
+DTEND;TZID=Europe/Warsaw:20251201T180000
+SUMMARY:Neurology and Neurological Nursing - Exercises
+DESCRIPTION:Lecturer: mgr Wioletta Mieloszyk, wykładowca. Form of passing: Pass with grade. [span_47](start_span)Room: GDA SMO GDA 5C.[span_47](end_span)
+LOCATION:GDA SMO GDA 5C
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251201T181500-OP-EX2@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251201T181500
+DTEND;TZID=Europe/Warsaw:20251201T203000
+SUMMARY:Palliative Care - Exercises
+DESCRIPTION:Lecturer: mgr Wioletta Mieloszyk, wykładowca. Form of passing: Pass with grade. [span_48](start_span)Room: GDA SMO GDA 5C.[span_48](end_span)
+LOCATION:GDA SMO GDA 5C
+END:VEVENT
+
+; Wednesday, December 3, 2025
+BEGIN:VEVENT
+UID:20251203T080000-ANST-L5@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251203T080000
+DTEND;TZID=Europe/Warsaw:20251203T101500
+SUMMARY:Anesthesiology and Nursing in Life-Threatening Situations - Lecture
+DESCRIPTION:Lecturer: mgr Agnieszka Ciosek. Form of passing: Exam. [span_49](start_span)Mode: Online (PSWTeams MTeams).[span_49](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251203T103000-POZ-L5@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251203T103000
+DTEND;TZID=Europe/Warsaw:20251203T124500
+SUMMARY:Primary Health Care - Lecture
+DESCRIPTION:Lecturer: mgr Weronika Ciapka. Form of passing: Exam. [span_50](start_span)Mode: Online (PSWTeams MTeams).[span_50](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251203T130000-PSYCH-L5@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251203T130000
+DTEND;TZID=Europe/Warsaw:20251203T151500
+SUMMARY:Psychiatry and Psychiatric Nursing - Lecture
+DESCRIPTION:Lecturer: mgr Katarzyna Miler. Form of passing: Exam. [span_51](start_span)Mode: Online (PSWTeams MTeams).[span_51](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251203T154500-PSYCH-EX2@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251203T154500
+DTEND;TZID=Europe/Warsaw:20251203T180000
+SUMMARY:Psychiatry and Psychiatric Nursing - Exercises
+DESCRIPTION:Lecturer: mgr Katarzyna Miler. Form of passing: Pass with grade. [span_52](start_span)Mode: Online (PSWTeams MTeams).[span_52](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251203T181500-PRM-L4@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251203T181500
+DTEND;TZID=Europe/Warsaw:20251203T203000
+SUMMARY:Basics of Medical Rescue - Lecture
+DESCRIPTION:Lecturer: mgr Konrad Zastawny. Form of passing: Exam. [span_53](start_span)Mode: Online (PSWTeams MTeams).[span_53](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+; Monday, December 15, 2025
+BEGIN:VEVENT
+UID:20251215T080000-PSYCH-EX3@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251215T080000
+DTEND;TZID=Europe/Warsaw:20251215T101500
+SUMMARY:Psychiatry and Psychiatric Nursing - Exercises
+DESCRIPTION:Lecturer: mgr Katarzyna Miler. Form of passing: Pass with grade. [span_54](start_span)Mode: Online (PSWTeams MTeams).[span_54](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251215T103000-PSYCH-EX4@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20251215T103000
+DTEND;TZID=Europe/Warsaw:20251215T124500
+SUMMARY:Psychiatry and Psychiatric Nursing - Exercises
+DESCRIPTION:Lecturer: mgr Katarzyna Miler. Form of passing: Pass with grade. [span_55](start_span)Mode: Online (PSWTeams MTeams).[span_55](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+; Wednesday, January 7, 2026
+BEGIN:VEVENT
+UID:20260107T080000-PSYCH-EX5@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20260107T080000
+DTEND;TZID=Europe/Warsaw:20260107T101500
+SUMMARY:Psychiatry and Psychiatric Nursing - Exercises
+DESCRIPTION:Lecturer: mgr Katarzyna Miler. Form of passing: Pass with grade. [span_56](start_span)Mode: Online (PSWTeams MTeams).[span_56](end_span)
+LOCATION:PSWTeams MTeams
+END:VEVENT
+
+; Wednesday, January 14, 2026
+BEGIN:VEVENT
+UID:20260114T154500-NEUR-EX4@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20260114T154500
+DTEND;TZID=Europe/Warsaw:20260114T180000
+SUMMARY:Neurology and Neurological Nursing - Exercises
+DESCRIPTION:Lecturer: mgr Wioletta Mieloszyk, wykładowca. Form of passing: Pass with grade. [span_57](start_span)Room: GDA SMO GDA 5C.[span_57](end_span)
+LOCATION:GDA SMO GDA 5C
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260114T181500-OP-EX3@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20260114T181500
+DTEND;TZID=Europe/Warsaw:20260114T203000
+SUMMARY:Palliative Care - Exercises
+DESCRIPTION:Lecturer: mgr Wioletta Mieloszyk, wykładowca. Form of passing: Pass with grade. [span_58](start_span)Room: GDA SMO GDA 5C.[span_58](end_span)
+LOCATION:GDA SMO GDA 5C
+END:VEVENT
+
+; Monday, January 26, 2026
+BEGIN:VEVENT
+UID:20260126T154500-OP-EX4@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20260126T154500
+DTEND;TZID=Europe/Warsaw:20260126T180000
+SUMMARY:Palliative Care - Exercises
+DESCRIPTION:Lecturer: mgr Wioletta Mieloszyk, wykładowca. Form of passing: Pass with grade. [span_59](start_span)Room: GDA SMO GDA 21C.[span_59](end_span)
+LOCATION:GDA SMO GDA 21C
+END:VEVENT
+
+; Thursday, January 29, 2026
+BEGIN:VEVENT
+UID:20260129T154500-NEUR-EX5@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20260129T154500
+DTEND;TZID=Europe/Warsaw:20260129T180000
+SUMMARY:Neurology and Neurological Nursing - Exercises
+DESCRIPTION:Lecturer: mgr Wioletta Mieloszyk, wykładowca. Form of passing: Pass with grade. [span_60](start_span)Room: GDA SMO GDA 5C.[span_60](end_span)
+LOCATION:GDA SMO GDA 5C
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260129T181500-OP-EX5@schedule.com
+DTSTAMP:20251013T213200Z
+DTSTART;TZID=Europe/Warsaw:20260129T181500
+DTEND;TZID=Europe/Warsaw:20260129T203000
+SUMMARY:Palliative Care - Exercises
+DESCRIPTION:Lecturer: mgr Wioletta Mieloszyk, wykładowca. Form of passing: Pass with grade. [span_61](start_span)Room: GDA SMO GDA 5C.[span_61](end_span)
+LOCATION:GDA SMO GDA 5C
+END:VEVENT
+
+END:VCALENDAR
